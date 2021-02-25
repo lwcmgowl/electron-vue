@@ -28,7 +28,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   修改文件
   ```
   node_module/app-builder-lib/out/targets/nsis/NsisTarget.js 的 executeMakensis方法
-  增加
   ```
-  args.push("-INPUTCHARSET", "UTF8");
+  增加   args.push("-INPUTCHARSET", "UTF8");
   ```
